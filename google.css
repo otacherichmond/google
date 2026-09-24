@@ -99,10 +99,11 @@ header nav a:hover {
     margin: 10px auto 3vh;
     display: flex;
     justify-content: space-between;
-    color: rgb(45, 115, 220);
+   
 }
 .content > p{
     font-size: calc(var(--font-a) + 1px);
+     color: rgb(45, 115, 220);
 }
 
 .trend {
