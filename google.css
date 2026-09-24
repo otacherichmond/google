@@ -3,7 +3,8 @@
     --color-1: #000;
     --color-2: rgb(45, 115, 220);
     --color-3: #fff;
-    --height: 40px;
+    --height: 60px;
+    --font-a: 0.85rem;
 }
 *{
     box-sizing: border-box;
@@ -25,11 +26,13 @@ header {
     align-items: center;
 }
 header nav {
+    align-self: flex-start;
     display: flex;
     gap: 3vw;
 }
 header nav a {
   text-decoration: none;
+  font-size: var(--font-a);
 }
 header nav a:hover {
   color: var(--color-2);
@@ -38,14 +41,15 @@ header nav a:hover {
 }
 .user img {
     width: 10vw;
-    max-width: 70px;
+    max-width: 50px;
     height: 10vw;
-    max-height: 70px;
+    max-height: 50px;
     border-radius: 50%;
 }
 
 .logo {
-  margin: 5vh;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
 }
 .logo h1 {
     font-size: 3rem;
@@ -54,7 +58,7 @@ header nav a:hover {
 
 .search {
     background-color: #333;
-    width: 80vw;
+    width: 90vw;
     max-width: 500px;
     height: 10vh;
     max-height: var(--height);
@@ -79,13 +83,18 @@ header nav a:hover {
     flex-direction: column;
     align-items: center;
 }
+.text > p{
+    font-size: calc(var(--font-a) + 2px);
+}
 .content {
     width: 60%;
     margin: 3vh auto;
     display: flex;
-    font-size: clamp(0.75rem, 0.85, 1.2rem);
     justify-content: space-between;
     color: rgb(45, 115, 220);
+}
+.content > p{
+    font-size: calc(var(--font-a) - 2px);
 }
 
 .trend {
