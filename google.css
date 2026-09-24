@@ -6,7 +6,7 @@
     --color-2: rgb(45, 115, 220);
     --color-3: #fff;
     --height: 48px;
-    --font-a: 0.85rem;
+    --font-a: 0.75rem;
 }
 *{
     box-sizing: border-box;
@@ -30,7 +30,7 @@ header {
 header nav {
     align-self: flex-start;
     display: flex;
-    gap: 3vw;
+    gap: 3.5vw;
 }
 header nav a {
   text-decoration: none;
