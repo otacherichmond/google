@@ -6,6 +6,8 @@
     --color-2: rgb(45, 115, 220);
     --color-3: #fff;
     --height: 48px;
+    --color-p: #8ab4f8;
+    --icon: #9aa0a6;
     --font-a: 0.75rem;
     --h2-size: 1.22rem;
 }
@@ -81,7 +83,7 @@ header nav a:hover {
     color: var(--color-3, #fff);
 }
 .search * {
-    color: rgb(255, 255, 255);
+    color: var(--icon);
 }
 .more {
     display: flex;
@@ -107,7 +109,7 @@ header nav a:hover {
 }
 .content > p{
     font-size: calc(var(--font-a) + 1px);
-     color: var(--color-2);
+     color: var(--color-p);
 }
 
 .trend {
