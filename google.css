@@ -94,7 +94,7 @@ header nav a:hover {
 }
 .content {
     gap: 10px;
-    margin: 3vh auto;
+    margin: auto auto 3vh;
     display: flex;
     justify-content: space-between;
     color: rgb(45, 115, 220);
