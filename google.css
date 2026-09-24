@@ -47,8 +47,7 @@ header nav a:hover {
     height: 10vw;
     max-height: 50px;
     border-radius: 50%;
-    margin-right: -3px;
-    align-self: flex-start;
+    margin: -10px -3px;
 }
 
 .logo {
