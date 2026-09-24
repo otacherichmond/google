@@ -133,7 +133,7 @@ header nav a:hover {
 footer {
     background: rgb(22, 23, 27);
     padding-top: 1px;
-    margin-top: 5vh;
+    margin-top: 4vh;
     padding-bottom: 20px;
     color: var(--color-3);
     display: flex;
