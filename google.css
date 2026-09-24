@@ -19,7 +19,7 @@ body{
 }
 main {
     height: 100dvh;
-    padding: 15px 15px 1px 15px;
+    padding: 20px 15px 1px 15px;
     margin-bottom: 5px;
 }
 header {
@@ -84,7 +84,7 @@ header nav a:hover {
 }
 
 .text {
-    margin: 3.5vh auto 2vh;
+    margin: 3.5vh auto 1.5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
