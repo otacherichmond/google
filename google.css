@@ -19,6 +19,7 @@ main {
     height: 100dvh;
     padding: 10px 15px 10px 10px;
     margin-bottom: 5px;
+    padding-top: 15px;
 }
 header {
     display: flex;
@@ -49,7 +50,7 @@ header nav a:hover {
 
 .logo {
   margin-top: 5vh;
-  margin-bottom: 2vh;
+  margin-bottom: 2.5vh;
 }
 .logo h1 {
     font-size: 3rem;
@@ -63,7 +64,7 @@ header nav a:hover {
     height: 10vh;
     max-height: var(--height);
     margin: auto;
-    border-radius: 60px;
+    border-radius: 50px;
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
@@ -84,7 +85,7 @@ header nav a:hover {
     align-items: center;
 }
 .text > p{
-    font-size: calc(var(--font-a) + 2px);
+    font-size: calc(var(--font-a) + 1px);
 }
 .content {
     width: 60%;
@@ -94,7 +95,7 @@ header nav a:hover {
     color: rgb(45, 115, 220);
 }
 .content > p{
-    font-size: calc(var(--font-a) - 2px);
+    font-size: calc(var(--font-a) - 1px);
 }
 
 .trend {
