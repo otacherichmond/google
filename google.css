@@ -64,7 +64,7 @@ header nav a:hover {
     max-height: var(--height);
     margin: auto;
     border-radius: 60px;
-    padding: 0 7px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
