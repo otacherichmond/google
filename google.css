@@ -125,6 +125,9 @@ header nav a:hover {
  padding: 15px;
  border-bottom: 1px solid #333;
 }
+.texts span {
+   font-weight: 300;
+}
 
 footer {
     background: rgb(22, 23, 27);
