@@ -47,6 +47,14 @@ header nav a:hover {
   padding-bottom: 10px;
   border-bottom: 2px solid var(--color-2);
 }
+.user {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+.user i {
+    font-size: calc((--font-a) * 15px);
+}
 .user img {
     width: 10vw;
     max-width: 50px;
@@ -130,6 +138,9 @@ header nav a:hover {
  gap: 3vw;
  padding: 15px;
  border-bottom: 1px solid #333;
+}
+.texts a {
+    text-decoration: none;
 }
 .texts span {
    color: #555;
